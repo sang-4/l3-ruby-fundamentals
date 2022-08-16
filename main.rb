@@ -42,6 +42,8 @@ puts 444.5.floor
 puts 0.989.ceil
 puts 69.99.to_i
 puts 0.66.to_i
+puts 4000.to_f
+
 # 4.0 Boolean
 # TODO: True / Truthy
 
@@ -55,12 +57,19 @@ puts 0.66.to_i
 # TODO: Create array natively
 
 # TODO: Create array using Array class
-
+roads = Array.new
+roads.push("Mondibe Drive", "Bajuba Highway")
+pp roads
 # 7.0 Hashes
 # TODO: Create Hash
-
+user = {name:"Allano", age:80, height:130, weight:64}
+pp user
 # TODO: Create Hash using Hash class
-
+student = Hash.new
+student[:name] = "Allano"
+student[:age] = 80
+student[:height] = 130
+puts student
 # 8.0 Methods
 # TODO: Method with enclosed params
 
